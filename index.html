@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width"/>
+
+    <title>Bible Project Reader</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="css/c3.min.css"> -->
+    <link rel="stylesheet" href="css/bible.css">
+
+
+    <!-- JAVASCRIPT INCLUDES -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/d3.min.js"></script>
+    <script src="js/c3.min.js"></script> -->
+    <script src="js/moment.min.js"></script>
+    <script src="js/director.min.js"></script>
+    <script src="js/biblehelper.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<!-- navigation -->
+<div class="navbar navbar-inverse navbar-default navbar-fixed-top" role="navigation">
+<!--    <div class="container-fluid padding-lr-100"> -->
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="/" class="navbar-brand">The Bible Project</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a id="display-current-hash" href='/'>Intro</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right" id="label-account">
+                <li class="dropdown">
+                  <a href="#" id="version-select" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span id="display-current-version">ESV</span> <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#" id="version-1" class="btn-version">ESV</a></li>
+                    <li><a href="#" id="version-2" class="btn-version">NASB</a></li>
+                  </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div>
+
+<div class="alert alert-success" id="status-alert" style="display:none;"></div>
+<!-- ./end navigation -->
+
+<div class='container'>
+    <div class='row'>
+        <div class="col-md-9">
+             <ul class="nav nav-pills" role="tablist">
+                <li role="presentation" class="active"><a href="#reading" aria-controls="reading" role="tab" data-toggle="tab">Read</a></li>
+                <li role="presentation"><a href="#meditation" aria-controls="meditation" role="tab" data-toggle="tab">Pray</a></li>
+                <li role="presentation"><a href="#video" aria-controls="video" role="tab" data-toggle="tab">Watch</a></li>
+              </ul>
+              <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="reading">
+                    <div class="container">
+                        <div class="col-md-9" id="reading-content">
+                            <h1>The Read Scripture Plan</h1>
+                            <hr>
+                            <p class='text-muted'>provided by <a href="http://jointhebibleproject.com" target="_blank">The Bible Project</a></p>
+                            <P>This plan takes you through the entire bible in one year. The scriptures are divided up into sixteen “chapters” and organized in semi-chronological order. You’ll read two or three chapters a day, and sometimes skim through larger portions that contain genealogies, census information, etc.</p>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="meditation">
+                     <div class="container">
+                        <div class="col-md-9" id="meditation-content">
+                            <h1>Psalms</h1>
+                            <hr>
+                            <P>One Psalm is listed each day for you to slowly pray through, making its words your own. By the end you’ll have prayed through the book of Psalms 2.5 times.</p>
+                        </div>
+                    </div>
+                </div>
+                 <div role="tabpanel" class="tab-pane" id="video">
+                    <div class="container">
+                        <div class="col-md-9" id="video-content">
+                            <h1>Videos</h1>
+                            <hr>
+                            <P>Each day you come to a new biblical book there will be a a short animated video on the bible project website about that book’s design and message and what to look for as you read. You can also sign up to have those videos emailed to your inbox.</p><br/>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/7hUs4TXRuVk" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='col-md-3'>
+            <div class="alert alert-info">
+                <div class="row" id="bookmark-content">
+                    <div class="col-md-12">
+                        <a href="http://thebibleproject.tumblr.com/readscripture">
+                            <img src="gfxs/bibleIcons/tbpLogo.png" class="img img-responsive">
+                        </a>
+                         <h4><small>Chapter 0</small><br/><strong><span class="text-uppercase">introduction</span></strong></h4>
+                        <hr>
+                    </div>
+                    <div class="col-md-12">
+                       <h3>Day <strong>0</strong> of 365</h3>
+                        <ul>
+                            <li><strong>Read</strong> Genesis 1-3</li>
+                            <li><strong>Meditate</strong> Psalms 1</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <hr/>
+    <div class="footer">
+        <p class='text-muted text-center'>
+            <small>&copy; 2016 <a href="http://showersofgrace.org">Showers of Grace</a>. <a href="https://www.jointhebibleproject.com/" target="_blank">The Bible Project</a>. <a href="http://realitysf.com/" target="_blank">Reality SF</a>. <a href="https://bibles.org" target="_blank">American Bible Society</a></small>
+        </p>
+    </div>
+</div>
+<!-- tracking purposes -->
+<input type='hidden' id="current-day" value="0"/>
+<input type='hidden' id="current-version" value="1"/>
+</body>
+</html>
