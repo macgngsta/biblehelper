@@ -50,7 +50,7 @@
             <ul class="nav navbar-nav">
                 <li class="active"><a id="display-current-hash" href='/'>Intro</a></li>
             </ul>
-            <ul class="nav navbar-nav navbar-right" id="label-account">
+            <ul class="nav navbar-nav navbar-right" id="label-right-nav">
                 <li class="dropdown">
                   <a href="#" id="version-select" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span id="display-current-version">ESV</span> <span class="caret"></span></a>
                   <ul class="dropdown-menu">
@@ -68,12 +68,36 @@
 <!-- ./end navigation -->
 
 <div class='container'>
+    <br/>
+    <div class='row'>
+        <div class="col-md-12">
+            <div class="btn-toolbar" role="toolbar">
+                <div class="btn-group" role="group" aria-label="...">
+                  <a href="#" class="btn btn-default" id="day-btn-group">Intro</a>
+                   <div class="btn-group" role="group">
+                        <a href="#" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="today_plan-btn-group">
+                          <span id="today_plan-span" class="text-capitalize">--</span>
+                          <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" id="today_plan-list">
+                        </ul>
+                      </div>
+                  <a href="#"  class="btn btn-default" id="version-btn-group">ESV</a>
+                </div>
+                <div class="btn-group" role="group" aria-label="...">
+                  <a href="#" class="btn btn-default"><span class="glyphicon glyphicon-text-size"></span></a>
+                  <a href="#" class="btn btn-default"><i class="fa fa-moon-o"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br/>
     <div class='row'>
         <div class="col-md-9">
-             <ul class="nav nav-pills" role="tablist">
-                <li role="presentation" class="active"><a href="#reading" aria-controls="reading" role="tab" data-toggle="tab">Read</a></li>
-                <li role="presentation"><a href="#meditation" aria-controls="meditation" role="tab" data-toggle="tab">Pray</a></li>
-                <li role="presentation"><a href="#video" aria-controls="video" role="tab" data-toggle="tab">Watch</a></li>
+             <ul class="nav nav-tabs" role="tablist" id="main-tabs">
+                <li role="presentation" class="active"><a href="#reading" aria-controls="reading" role="tab" data-toggle="tab"><i class="fa fa-book"></i> Read</a></li>
+                <li role="presentation"><a href="#meditation" aria-controls="meditation" role="tab" data-toggle="tab"><i class="fa fa-puzzle-piece"></i> Pray</a></li>
+                <li role="presentation"><a href="#video" aria-controls="video" role="tab" data-toggle="tab"><i class="fa fa-film"></i> Watch</a></li>
               </ul>
               <div class="tab-content">
                 <div role="tabpanel" class="tab-pane active" id="reading">
@@ -83,6 +107,20 @@
                             <hr>
                             <p class='text-muted'>provided by <a href="http://jointhebibleproject.com" target="_blank">The Bible Project</a></p>
                             <P>This plan takes you through the entire bible in one year. The scriptures are divided up into sixteen “chapters” and organized in semi-chronological order. You’ll read two or three chapters a day, and sometimes skim through larger portions that contain genealogies, census information, etc.</p>
+                            <br/>
+                            <p>Couple ways to use. All the reading plans are attached to the google calendar</p>
+                            <ol>
+                                <li>Give me your gmail address and I can share my calendar with your</li>
+                                <li>Import my current calendar using this link into Google <a href="https://calendar.google.com/calendar/ical/0v7481u2nb7qcs5dvohk79tv0c%40group.calendar.google.com/public/basic.ics" class="btn btn-default"><span class="glyphicon glyphicon-calendar"></span> <span class="label label-success">iCal</span></a> <a href="https://calendar.google.com/calendar/embed?src=0v7481u2nb7qcs5dvohk79tv0c%40group.calendar.google.com&ctz=America/Los_Angeles" class="btn btn-default"><span class="glyphicon glyphicon-calendar"></span> <span class="label label-primary">HTML</span></a>
+                                <li><a href="scripts/generateCal.php">Build your own calendar</a></li>
+                            </ol>
+                            <br/>
+                            <p>Select a day below:</p>
+                            <ul class="pagination" id="day-select-menu">
+                            </ul>
+                        </div>
+                        <div class="col-md-9">
+                            <a href="#" class="btn-meditate btn btn-default pull-right"><i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -93,6 +131,9 @@
                             <hr>
                             <P>One Psalm is listed each day for you to slowly pray through, making its words your own. By the end you’ll have prayed through the book of Psalms 2.5 times.</p>
                         </div>
+                        <div class="col-md-9">
+                            <a href="#" class="btn-video btn btn-default pull-right"><i class="fa fa-arrow-right"></i></a>
+                        </div>
                     </div>
                 </div>
                  <div role="tabpanel" class="tab-pane" id="video">
@@ -102,6 +143,9 @@
                             <hr>
                             <P>Each day you come to a new biblical book there will be a a short animated video on the bible project website about that book’s design and message and what to look for as you read. You can also sign up to have those videos emailed to your inbox.</p><br/>
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/7hUs4TXRuVk" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                         <div class="col-md-9">
+                            <a href="#" class="btn-read btn btn-default pull-right"><i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -138,5 +182,8 @@
 <!-- tracking purposes -->
 <input type='hidden' id="current-day" value="0"/>
 <input type='hidden' id="current-version" value="1"/>
+<input type='hidden' id="current-read" value=""/>
+<input type='hidden' id="current-meditate" value=""/>
+<input type='hidden' id="current-video" value=""/>
 </body>
 </html>

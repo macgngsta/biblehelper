@@ -589,6 +589,9 @@ function cleanText(input){
 							_plan[key]=dayObj;
 						}
 					}
+
+					buildDayLinks(_plan);
+
 					log('build the plan with: '+_plan.length);
 				}
 				else{
@@ -615,10 +618,14 @@ function cleanText(input){
 		}
 		else{
 			var currentDay=_plan[day];
+
+			buildDayLinks(_plan, currentDay);
+
 			if(isNotNullOrEmpty(currentDay)){
 				var bContent = buildBookmarkContent(''+currentDay.day, ''+currentDay.chapter, currentDay.title, currentDay.read, currentDay.meditation, currentDay.video, currentDay.videoUrl);
 				if(isNotNullOrEmpty(bContent)){
-					$('#bookmark-content').html(bContent);
+					$('#bookmark-content').html(bContent.panel);
+					$('#today_plan-list').html(bContent.list);
 				}
 
 				var rParam=biblehelper.constructParams(currentDay.read, version);
@@ -629,9 +636,10 @@ function cleanText(input){
 				$('#video-content').html(buildVideoPanel(currentDay.video, currentDay.videoUrl));
 
 				//session tracking
-				biblehelper.setCurrentParams(day,version);
+				biblehelper.setCurrentParams(day,version,currentDay.read, currentDay.meditation, currentDay.video);
 				buildDisplayCurrentLink(day,version);
 				displayCurrentVersion(version);
+				activateRead();
 			}
 		}
 	};
@@ -641,17 +649,23 @@ function cleanText(input){
 	biblehelper.getCurrentParams=function(){
 		var currDay=$('#current-day').val();
 		var currVersion=$('#current-version').val();
+		var currRead=$('#current-read').val();
+		var currMeditate=$('#current-meditate').val();
+		var currVideo=$('#current-video').val();
 
 		var currParam={};
 		currParam.day=currDay;
 		currParam.version=currVersion;
+		currParam.read=currRead;
+		currParam.pray=currMeditate;
+		currParam.video=currVideo;
 
 		return currParam;
 	};
 
 	//---------------------------------------
 
-	biblehelper.setCurrentParams=function(day, version){
+	biblehelper.setCurrentParams=function(day, version, read, pray, video){
 		if(isNotNullOrEmpty(day)){
 			$('#current-day').val(day);
 		}
@@ -659,34 +673,85 @@ function cleanText(input){
 		if(isNotNullOrEmpty(version)){
 			$('#current-version').val(version);
 		}
-	};
 
+		if(isNotNullOrEmpty(read)){
+			$('#current-read').val(read);
+		}
+
+		if(isNotNullOrEmpty(pray)){
+			$('#current-meditate').val(pray);
+		}
+
+		$('#current-video').val(video);
+
+	};
+	
+	//---------------------------------------
+
+	function buildDayLinks(plan){
+
+		var listItems='';
+		var listTemplate='<li><a href=\"#\" id=\"day-{2}\" class=\"btn-day">{3}</a></li>';
+
+		if(plan.length > 0){
+			for(var i=0; i<plan.length; i++){
+				tPlan = plan[i];
+				if(tPlan){
+
+					var zeroDigit=''+tPlan.day;
+					if(tPlan.day < 10){
+						zeroDigit='0'+tPlan.day;
+					}
+
+					var st =listTemplate.apply('', tPlan.day, zeroDigit);
+					listItems+=st;
+				}
+			}
+		}
+
+		if(listItems){
+			$('#day-select-menu').html(listItems);
+		}
+	}
+	
 	//---------------------------------------
 
 	function buildBookmarkContent(day,chapter,title,read,meditate,video,videoUrl){
-		var cTemplate='<div class=\"col-md-12\"><a href=\"http://thebibleproject.tumblr.com/readscripture\"><img src=\"gfxs/bibleIcons/tbp{1}.png\" class=\"img img-responsive\"></a><h4><small>Chapter {2}</small><br/><strong><span class=\"text-uppercase\">{3}</span></strong></h4><hr></div><div class=\"col-md-12\"><h4>{4} Day <strong>{5}</strong> of 365 {6}</h4>{7}</div>';
-		var rTemplate='<ul><li class=\"text-capitalize\"><strong>Read</strong> {1}</li><li class=\"text-capitalize\"><strong>Meditate</strong> {2}</li>{3}</ul>';
-		var vTemplate='<li class=\"text-capitalize\"><strong>Watch</strong> <a href=\"{1}\">{2}</a></li>';
+		var results={};
+
+		var cTemplate='<div class=\"col-md-12\"><a href=\"http://thebibleproject.tumblr.com/readscripture\"><img src=\"gfxs/bibleIcons/tbp{1}.png\" class=\"img img-responsive\"></a><h4><small>Chapter {2}</small><br/><strong><span class=\"text-uppercase\">{3}</span></strong></h4><hr></div><div class=\"col-md-12\"><h4>{4} Day <strong>{5}</strong> of 365 {6}</h4><ul>{7}</ul></div>';
+		var rTemplate='<li class=\"text-capitalize\">{1}{2}</li><li class=\"text-capitalize\">{3}{4}</li>{5}';
+		var vTemplate='<li class=\"text-capitalize\">{1}<a href=\"{2}\">{3}</a></li>';
+		
 		var cContent='';
+		var listContent='';
 
 		if(isNotNullOrEmpty(day)){
 			log(day);
 			var vContent='';
+			var vlContent='';
 			if(isNotNullOrEmpty(video) && isNotNullOrEmpty(videoUrl)){
-				vContent = vTemplate.apply(videoUrl,video);
+				vContent = vTemplate.apply('<strong>Watch</strong> ',videoUrl,video);
+				vlContent = vTemplate.apply('','#\" class=\"btn-video','<i class=\"fa fa-film\"></i> '+video);
 			}
 
 			var rContent='';
+			var rlContent='';
 			if(isNotNullOrEmpty(read) || isNotNullOrEmpty(meditate)){
-				rContent=rTemplate.apply(read,meditate,vContent);
-			}
-			
+				rContent=rTemplate.apply('<strong>Read</strong> ', read, '<strong>Meditate</strong> ', meditate, vContent);
+				rlContent=rTemplate.apply('<a href=\"#\" class=\"btn-read\"><i class=\"fa fa-book\"></i> ', read +'</a>', '<a href=\"#\" class=\"btn-meditate\"><i class=\"fa fa-puzzle-piece\"></i> ', meditate, vlContent);
+			} 
+
 			var cP=biblehelper.getCurrentParams();
 
 			cContent=cTemplate.apply(chapter,chapter,title,buildPreviousLink(day, cP.version),day,buildNextLink(day, cP.version), rContent);
+			listContent+=rlContent;
+
+			results.panel=cContent;
+			results.list=listContent;
 		}
 
-		return cContent;
+		return results;
 	}
 
 	//---------------------------------------
@@ -742,8 +807,11 @@ function cleanText(input){
 	function buildDisplayCurrentLink(day,version){
 		var elem=$('#display-current-hash');
 		var dStr='Day {1}';
-		elem.html(dStr.apply(day));
+		var displayStr = dStr.apply(day);
+		elem.html(displayStr);
 		elem.attr('href',biblehelper.buildHash(day,version,true));
+
+		$('#day-btn-group').html(displayStr);
 	}
 
 	//---------------------------------------
@@ -768,6 +836,7 @@ function cleanText(input){
   		});
 
   		$('#display-current-version').html(currentVersionStr);
+  		$('#version-btn-group').html(currentVersionStr);
 	}
 
 	//---------------------------------------
@@ -845,7 +914,60 @@ $(document).ready(function() {
 	     return false;
   	});
 
+  	//---------------------------------------
+
+  	$(document).on('click', '.btn-day', function(e){
+	     var dayAgg = $(this).attr('id');
+	     var daySelected = extractKey(dayAgg, 1);
+	     if(daySelected){
+	       var params=biblehelper.getCurrentParams();
+	       var nHash=biblehelper.buildHash(daySelected, params.version, false);
+	       biblehelper.route(nHash);
+	     }
+
+	     //close the dropdown
+	     $('#day-select').dropdown('toggle');
+
+	     return false;
+  	});
+
+  	//---------------------------------------
+
+  	$(document).on('click', '.btn-read', function(e){
+  		activateRead();
+  		return false;
+  	});
+
+  	//---------------------------------------
+
+  	$(document).on('click', '.btn-meditate', function(e){
+  		activateMeditate();
+  		return false;
+  	});
+
+  	//---------------------------------------
+
+  	$(document).on('click', '.btn-video', function(e){
+  		activateVideo();
+  		return false;
+  	});
+
 }); //end doc ready
+
+function activateRead(){
+	$('#main-tabs a[href="#reading"]').tab('show');
+	$('#today_plan-span').html(biblehelper.getCurrentParams().read);
+}
+
+function activateMeditate(){
+	$('#main-tabs a[href="#meditation"]').tab('show');
+	$('#today_plan-span').html(biblehelper.getCurrentParams().pray);
+}
+
+function activateVideo(){
+	$('#main-tabs a[href="#video"]').tab('show');
+	$('#today_plan-span').html(biblehelper.getCurrentParams().video);
+}
 
 //---------------------------------------
 /*

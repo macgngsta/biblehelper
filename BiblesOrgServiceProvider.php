@@ -73,7 +73,7 @@ class BiblesOrgServiceProvider {
 	}
 
 	private function readXml($curlH){
-		$bpObject=null;
+		$bPassages=array();
 		$resp = null;
 		$sCode = CurlHelper::checkHttpStatus($curlH->getHttpStatus());
 		switch($sCode)
@@ -97,31 +97,36 @@ class BiblesOrgServiceProvider {
 
 		if(!empty($resp)){
 			$this->_rawResponse=$resp;
-			$bpObject = new BiblePassageObject();
-
 			$result = $resp->search->result;
 			if(!empty($result)){
-				$passage = $result->passages->passage;
-				if(!empty($passage)){
-					$bpObject->set_display($passage->display);
-					$bpObject->set_version($passage->version);
-					$bpObject->set_textStr($passage->text);
-					$bpObject->set_copyright($passage->copyright);
-				}
-				else{
-					$this->_isError=true;
-					$this->_errorMessage="passage was empty";
+				//was too early on the first try
+				$passages = $result->passages->passage;
+				if(!empty($passages)){
+					foreach($passages as $passage){
+						if(!empty($passage)){
+							$bpObject = new BiblePassageObject();
+							$bpObject->set_display($passage->display);
+							$bpObject->set_version($passage->version);
+							$bpObject->set_textStr($passage->text);
+							$bpObject->set_copyright($passage->copyright);
+							$bpObject->set_fums($resp->meta->fums);
+
+							$bPassages[]=$bpObject;
+						}
+						else{
+							$this->_isError=true;
+							$this->_errorMessage="passage was empty";
+						}
+					}
 				}
 			}
 			else{
 				$this->_isError=true;
 				$this->_errorMessage="result set was empty";
 			}
-
-			$bpObject->set_fums($resp->meta->fums);
 		}
 
-		return $bpObject;
+		return $bPassages;
 	}
 
 	public function render(){
@@ -132,15 +137,26 @@ class BiblesOrgServiceProvider {
 		}
 		else{
 			if(!empty($this->_extractedResponse)){
-				$respStr="";
-				$respStr.="<h1>";
-				$respStr.=$this->_extractedResponse->get_display();
-				$respStr.="</h1><hr>";
-				$respStr.=$this->_extractedResponse->get_textStr();
-				$respStr.="<hr>";
-				$respStr.="<small class='text-muted'>";
-				$respStr.=$this->_extractedResponse->get_copyright();
-				$respStr.="</small>";
+				
+				$isFirst=true;
+				$respStr="<br/>";
+				$ccText="";
+
+				foreach($this->_extractedResponse as $passage){
+					if($isFirst){
+						$isFirst=false;
+						$ccText.="<small class='text-muted'>";
+						$ccText.=$passage->get_copyright();
+						$ccText.="</small>";
+					}
+					$respStr.="<blockquote class=\"blockquote-reverse\"><p class=\"lead text-info\">";
+					$respStr.=$passage->get_display();
+					$respStr.="</p></blockquote>";
+					$respStr.=$passage->get_textStr();
+					$respStr.="<hr>";
+				}
+
+				$respStr.=$ccText;
 
 				$this->_renderedResponse=$respStr;
 			}
@@ -184,7 +200,50 @@ class BiblesOrgServiceProvider {
 
 		if(!empty($query)){
 			$queryClean=strtolower($query);
-			$queryClean=urlencode($queryClean);
+
+			$exhaustiveBookQuery ='';
+
+			//contains a -
+			if(strpos($queryClean,'-')!==false){
+				//split by space
+				$book = explode(' ', $queryClean);
+
+				//we currently assume that there are not multiple books
+				//per reading
+				if(!empty($book) && count($book)>=2){
+					//this is the book
+					$theBook = $book[0];
+					//these are the chapters
+					$theChapters = $book[1];
+					if(!empty($theChapters)){
+						$whichCh = explode('-',$theChapters);
+
+						if(!empty($whichCh) && count($whichCh) == 2){
+							$sCh = (int)$whichCh[0];
+							$eCh = (int)$whichCh[1];
+
+							$isFirst = true;
+							for($i=$sCh; $i<=$eCh; $i++){
+								if($isFirst){
+									$isFirst=false;
+								}
+								else{
+									$exhaustiveBookQuery.=',';
+								}
+								$exhaustiveBookQuery.=$theBook;
+								$exhaustiveBookQuery.=' ';
+								$exhaustiveBookQuery.=$i;
+							}
+						}
+					}
+
+				}
+
+			}
+			else{
+				$exhaustiveBookQuery=$queryClean;
+			}
+			$queryClean=urlencode($exhaustiveBookQuery);
 		}
 
 		return $queryClean;
