@@ -1,0 +1,23 @@
+{
+  "bitwise": false,
+  "browser": true,
+  "curly": true,
+  "eqeqeq": true,
+  "eqnull": true,
+  "immed": true,
+  "jquery": true,
+  "latedef": true,
+  "newcap": true,
+  "noarg": true,
+  "node": true,
+  "strict": false,
+  "trailing": true,
+  "undef": true,
+  "sub": true,
+  "es3":false,
+  "camelcase":false,
+  "forin":true,
+  "nonew":true,
+  "quotmark":"single",
+  "unused":false
+}

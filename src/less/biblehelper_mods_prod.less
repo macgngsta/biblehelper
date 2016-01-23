@@ -1,0 +1,97 @@
+@import "vendor/bootstrap/bootstrap.less";
+
+/*
+ * Additional Variables
+ */
+
+@label-purple-bg:          #9954BB;
+@label-dkgrey-bg:          #474949;
+@label-yellow-bg:          #e1d31c;
+@label-teal-bg:            #48c3ab;
+@label-armygreen-bg:       #215318;
+
+
+body {
+  position: relative; /* For scrollyspy */
+  padding-top: 70px; /* Account for fixed navbar */
+}
+
+/*
+ * Callouts
+ *
+ * Not quite alerts, but custom and helpful notes for folks reading the docs.
+ * Requires a base and modifier class.
+ */
+
+/* Common styles for all types */
+.bs-callout {
+  margin: 20px 0;
+  padding: 15px 30px 15px 15px;
+  border-left: 5px solid #eee;
+}
+.bs-callout h4 {
+  margin-top: 0;
+}
+.bs-callout p:last-child {
+  margin-bottom: 0;
+}
+.bs-callout code,
+.bs-callout .highlight {
+  background-color: #fff;
+}
+
+/* Variations */
+.bs-callout-danger {
+  background-color: #fcf2f2;
+  border-color: #dFb5b4;
+}
+.bs-callout-warning {
+  background-color: #fefbed;
+  border-color: #f1e7bc;
+}
+.bs-callout-info {
+  background-color: #f0f7fd;
+  border-color: #d0e3f0;
+}
+
+/* capitalize on list view */
+li strong{
+  text-transform:capitalize;
+}
+
+/* more Labels */
+.label-purple {
+  .label-variant(@label-purple-bg);
+}
+.label-dkgrey {
+  .label-variant(@label-dkgrey-bg);
+}
+.label-yellow {
+  .label-variant(@label-yellow-bg);
+}
+.label-teal {
+  .label-variant(@label-teal-bg);
+}
+.label-armygreen {
+  .label-variant(@label-armygreen-bg);
+}
+
+@import "prod_vars.less";
+
+/* IE specific css hacks */
+
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+/* sticky table header */
+.tableFloatingHeaderOriginal th {
+  background-color: #fff;
+  border-bottom: 1px solid #DDD;
+}
+
+.sb-notop{
+  margin-top:0px;
+}

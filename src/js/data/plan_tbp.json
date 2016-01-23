@@ -1,0 +1,1608 @@
+[
+	{
+		"day":1,
+		"chapter":1,
+		"title":"creation and fall",
+		"titleUrl":"tbh1.png",
+		"read":"genesis 1-3",
+		"meditation":"psalms 1",
+		"video":"genesis 1-11",
+		"videoUrl":"https://www.youtube.com/embed/GQI72THyO5I"
+	},
+	{
+		"day":2,
+		"chapter":1,
+		"title":"creation and fall",
+		"titleUrl":"tbh1.png",
+		"read":"genesis 4-7",
+		"meditation":"psalms 2"
+	},
+	{
+		"day":3,
+		"chapter":1,
+		"title":"creation and fall",
+		"titleUrl":"tbh1.png",
+		"read":"genesis 8-11",
+		"meditation":"psalms 3"
+	},
+	{
+		"day":4,
+		"chapter":2,
+		"title":"the covenant with abraham",
+		"titleUrl":"tbh2.png",
+		"read":"genesis 12-15",
+		"meditation":"psalms 4",
+		"video":"genesis 12-50",
+		"videoUrl":"https://www.youtube.com/embed/F4isSyennFo"
+	},
+	{
+		"day":5,
+		"chapter":2,
+		"title":"the covenant with abraham",
+		"titleUrl":"tbh2.png",
+		"read":"genesis 16-18",
+		"meditation":"psalms 5"
+	},
+	{
+		"day":6,
+		"chapter":2,
+		"title":"the covenant with abraham",
+		"titleUrl":"tbh2.png",
+		"read":"genesis 19-21",
+		"meditation":"psalms 6"
+	},
+	{
+		"day":7,
+		"chapter":2,
+		"title":"the covenant with abraham",
+		"titleUrl":"tbh2.png",
+		"read":"genesis 22-24",
+		"meditation":"psalms 7"
+	},
+	{
+		"day":8,
+		"chapter":2,
+		"title":"the covenant with abraham",
+		"titleUrl":"tbh2.png",
+		"read":"genesis 25-28",
+		"meditation":"psalms 8"
+	},
+	{
+		"day":9,
+		"chapter":2,
+		"title":"the covenant with abraham",
+		"titleUrl":"tbh2.png",
+		"read":"genesis 29-31",
+		"meditation":"psalms 9"
+	},
+	{
+		"day":10,
+		"chapter":2,
+		"title":"the covenant with abraham",
+		"titleUrl":"tbh2.png",
+		"read":"genesis 32-34",
+		"meditation":"psalms 10"
+	},
+	{
+		"day":11,
+		"chapter":2,
+		"title":"the covenant with abraham",
+		"titleUrl":"tbh2.png",
+		"read":"genesis 35-37",
+		"meditation":"psalms 11"
+	},
+	{
+		"day":12,
+		"chapter":2,
+		"title":"the covenant with abraham",
+		"titleUrl":"tbh2.png",
+		"read":"genesis 38-40",
+		"meditation":"psalms 12"
+	},
+	{
+		"day":13,
+		"chapter":2,
+		"title":"the covenant with abraham",
+		"titleUrl":"tbh2.png",
+		"read":"genesis 41-42",
+		"meditation":"psalms 13"
+	},
+	{
+		"day":14,
+		"chapter":2,
+		"title":"the covenant with abraham",
+		"titleUrl":"tbh2.png",
+		"read":"genesis 43-45",
+		"meditation":"psalms 14"
+	},
+	{
+		"day":15,
+		"chapter":2,
+		"title":"the covenant with abraham",
+		"titleUrl":"tbh2.png",
+		"read":"genesis 46-47",
+		"meditation":"psalms 15"
+	},
+	{
+		"day":16,
+		"chapter":2,
+		"title":"the covenant with abraham",
+		"titleUrl":"tbh2.png",
+		"read":"genesis 48-50",
+		"meditation":"psalms 16"
+	},
+    {
+		"day":17,
+		"chapter":3,
+		"title":"the exodus from egypt",
+		"titleUrl":"tbh3.png",
+		"read":"exodus 1-3",
+		"meditation":"psalms 17",
+		"video":"exodus 1-18",
+		"videoUrl":"https://www.youtube.com/embed/0uf-PgW7rqE"
+	},
+    {
+		"day":18,
+		"chapter":3,
+		"title":"the exodus from egypt",
+		"titleUrl":"tbh3.png",
+		"read":"exodus 4-6",
+		"meditation":"psalms 18"
+	},
+    {
+		"day":19,
+		"chapter":3,
+		"title":"the exodus from egypt",
+		"titleUrl":"tbh3.png",
+		"read":"exodus 7-9",
+		"meditation":"psalms 19"
+	},
+    {
+		"day":20,
+		"chapter":3,
+		"title":"the exodus from egypt",
+		"titleUrl":"tbh3.png",
+		"read":"exodus 10-12",
+		"meditation":"psalms 20"
+	},
+    {
+		"day":21,
+		"chapter":3,
+		"title":"the exodus from egypt",
+		"titleUrl":"tbh3.png",
+		"read":"exodus 13-15",
+		"meditation":"psalms 21"
+	},
+    {
+		"day":22,
+		"chapter":3,
+		"title":"the exodus from egypt",
+		"titleUrl":"tbh3.png",
+		"read":"exodus 16-18",
+		"meditation":"psalms 22"
+	},
+    {
+		"day":23,
+		"chapter":4,
+		"title":"the covenant at mt. sinai",
+		"titleUrl":"tbh4.png",
+		"read":"exodus 19-21",
+		"meditation":"psalms 23",
+		"video":"exodus 19-40",
+		"videoUrl":"https://www.youtube.com/embed/b0GhR-2kPKI"
+	},
+    {
+		"day":24,
+		"chapter":4,
+		"title":"the covenant at mt. sinai",
+		"titleUrl":"tbh4.png",
+		"read":"exodus 22-24",
+		"meditation":"psalms 24"
+	},
+    {
+		"day":25,
+		"chapter":4,
+		"title":"the covenant at mt. sinai",
+		"titleUrl":"tbh4.png",
+		"read":"exodus 25-27",
+		"meditation":"psalms 25"
+	},
+    {
+		"day":26,
+		"chapter":4,
+		"title":"the covenant at mt. sinai",
+		"titleUrl":"tbh4.png",
+		"read":"exodus 28-29",
+		"meditation":"psalms 26"
+	},
+    {
+		"day":27,
+		"chapter":4,
+		"title":"the covenant at mt. sinai",
+		"titleUrl":"tbh4.png",
+		"read":"exodus 30-31",
+		"meditation":"psalms 27"
+	},
+    {
+		"day":28,
+		"chapter":4,
+		"title":"the covenant at mt. sinai",
+		"titleUrl":"tbh4.png",
+		"read":"exodus 32-34",
+		"meditation":"psalms 28"
+	},
+    {
+		"day":29,
+		"chapter":4,
+		"title":"the covenant at mt. sinai",
+		"titleUrl":"tbh4.png",
+		"read":"exodus 35-40",
+		"meditation":"psalms 29"
+	},
+    {
+		"day":30,
+		"chapter":4,
+		"title":"the covenant at mt. sinai",
+		"titleUrl":"tbh4.png",
+		"read":"leviticus 1-4",
+		"meditation":"psalms 30",
+		"video":"leviticus",
+		"videoUrl":"https://www.youtube.com/embed/WmvyrLXoQio"
+	},
+    {
+		"day":31,
+		"chapter":4,
+		"title":"the covenant at mt. sinai",
+		"titleUrl":"tbh4.png",
+		"read":"leviticus 5-7",
+		"meditation":"psalms 31"
+	},
+    {
+		"day":32,
+		"chapter":4,
+		"title":"the covenant at mt. sinai",
+		"titleUrl":"tbh4.png",
+		"read":"leviticus 8-10",
+		"meditation":"psalms 32"
+	},
+    {
+		"day":33,
+		"chapter":4,
+		"title":"the covenant at mt. sinai",
+		"titleUrl":"tbh4.png",
+		"read":"leviticus 11-13",
+		"meditation":"psalms 33"
+	},
+    {
+		"day":34,
+		"chapter":4,
+		"title":"the covenant at mt. sinai",
+		"titleUrl":"tbh4.png",
+		"read":"leviticus 14-15",
+		"meditation":"psalms 34"
+	},
+    {
+		"day":35,
+		"chapter":4,
+		"title":"the covenant at mt. sinai",
+		"titleUrl":"tbh4.png",
+		"read":"leviticus 16-18",
+		"meditation":"psalms 35"
+	},
+    {
+		"day":36,
+		"chapter":4,
+		"title":"the covenant at mt. sinai",
+		"titleUrl":"tbh4.png",
+		"read":"leviticus 19-20",
+		"meditation":"psalms 36"
+	},
+    {
+		"day":37,
+		"chapter":4,
+		"title":"the covenant at mt. sinai",
+		"titleUrl":"tbh4.png",
+		"read":"leviticus 21-23",
+		"meditation":"psalms 37"
+	},
+    {
+		"day":38,
+		"chapter":4,
+		"title":"the covenant at mt. sinai",
+		"titleUrl":"tbh4.png",
+		"read":"leviticus 24-25",
+		"meditation":"psalms 38"
+	},
+    {
+		"day":39,
+		"chapter":4,
+		"title":"the covenant at mt. sinai",
+		"titleUrl":"tbh4.png",
+		"read":"leviticus 26-27",
+		"meditation":"psalms 39"
+	},
+    {
+		"day":40,
+		"chapter":5,
+		"title":"the wilderness",
+		"titleUrl":"tbh5.png",
+		"read":"numbers 1-4",
+		"meditation":"psalms 40",
+		"video":"numbers",
+		"videoUrl":"https://www.youtube.com/embed/zebxH-5o-SQ"
+	},
+    {
+		"day":41,
+		"chapter":5,
+		"title":"the wilderness",
+		"titleUrl":"tbh5.png",
+		"read":"numbers 5-7",
+		"meditation":"psalms 41"
+	},
+    {
+		"day":42,
+		"chapter":5,
+		"title":"the wilderness",
+		"titleUrl":"tbh5.png",
+		"read":"numbers 8-10",
+		"meditation":"psalms 42"
+	},
+    {
+		"day":43,
+		"chapter":5,
+		"title":"the wilderness",
+		"titleUrl":"tbh5.png",
+		"read":"numbers 11-13",
+		"meditation":"psalms 43"
+	},
+    {
+		"day":44,
+		"chapter":5,
+		"title":"the wilderness",
+		"titleUrl":"tbh5.png",
+		"read":"numbers 14-16",
+		"meditation":"psalms 44"
+	},
+    {
+		"day":45,
+		"chapter":5,
+		"title":"the wilderness",
+		"titleUrl":"tbh5.png",
+		"read":"numbers 17-18",
+		"meditation":"psalms 45"
+	},
+    {
+		"day":46,
+		"chapter":5,
+		"title":"the wilderness",
+		"titleUrl":"tbh5.png",
+		"read":"numbers 19-21",
+		"meditation":"psalms 46"
+	},
+    {
+		"day":47,
+		"chapter":5,
+		"title":"the wilderness",
+		"titleUrl":"tbh5.png",
+		"read":"numbers 22-24",
+		"meditation":"psalms 47"
+	},
+    {
+		"day":48,
+		"chapter":5,
+		"title":"the wilderness",
+		"titleUrl":"tbh5.png",
+		"read":"numbers 25-27",
+		"meditation":"psalms 48"
+	},
+    {
+		"day":49,
+		"chapter":5,
+		"title":"the wilderness",
+		"titleUrl":"tbh5.png",
+		"read":"numbers 28-30",
+		"meditation":"psalms 49"
+	},
+    {
+		"day":50,
+		"chapter":5,
+		"title":"the wilderness",
+		"titleUrl":"tbh5.png",
+		"read":"numbers 31-32",
+		"meditation":"psalms 50"
+	},
+    {
+		"day":51,
+		"chapter":5,
+		"title":"the wilderness",
+		"titleUrl":"tbh5.png",
+		"read":"numbers 33-34",
+		"meditation":"psalms 51"
+	},
+    {
+		"day":52,
+		"chapter":5,
+		"title":"the wilderness",
+		"titleUrl":"tbh5.png",
+		"read":"numbers 35-36",
+		"meditation":"psalms 52"
+	},
+    {
+		"day":53,
+		"chapter":5,
+		"title":"the wilderness",
+		"titleUrl":"tbh5.png",
+		"read":"deuteronomy 1-3",
+		"meditation":"psalms 53",
+		"video":"deuteronomy",
+		"videoUrl":"https://www.youtube.com/embed/NMhmDPWeftw"
+	},
+    {
+		"day":54,
+		"chapter":5,
+		"title":"the wilderness",
+		"titleUrl":"tbh5.png",
+		"read":"deuteronomy 4-6",
+		"meditation":"psalms 54"
+	},
+    {
+		"day":55,
+		"chapter":5,
+		"title":"the wilderness",
+		"titleUrl":"tbh5.png",
+		"read":"deuteronomy 7-9",
+		"meditation":"psalms 55"
+	},
+    {
+		"day":56,
+		"chapter":5,
+		"title":"the wilderness",
+		"titleUrl":"tbh5.png",
+		"read":"deuteronomy 10-12",
+		"meditation":"psalms 56"
+	},
+    {
+		"day":57,
+		"chapter":5,
+		"title":"the wilderness",
+		"titleUrl":"tbh5.png",
+		"read":"deuteronomy 13-14",
+		"meditation":"psalms 57"
+	},
+    {
+		"day":58,
+		"chapter":5,
+		"title":"the wilderness",
+		"titleUrl":"tbh5.png",
+		"read":"deuteronomy 15-16",
+		"meditation":"psalms 58"
+	},
+    {
+		"day":59,
+		"chapter":5,
+		"title":"the wilderness",
+		"titleUrl":"tbh5.png",
+		"read":"deuteronomy 17-20",
+		"meditation":"psalms 59"
+	},
+    {
+		"day":60,
+		"chapter":5,
+		"title":"the wilderness",
+		"titleUrl":"tbh5.png",
+		"read":"deuteronomy 21-23",
+		"meditation":"psalms 60"
+	},
+    {
+		"day":61,
+		"chapter":5,
+		"title":"the wilderness",
+		"titleUrl":"tbh5.png",
+		"read":"deuteronomy 24-27",
+		"meditation":"psalms 61"
+	},
+    {
+		"day":62,
+		"chapter":5,
+		"title":"the wilderness",
+		"titleUrl":"tbh5.png",
+		"read":"deuteronomy 28-29",
+		"meditation":"psalms 62"
+	},
+    {
+		"day":63,
+		"chapter":5,
+		"title":"the wilderness",
+		"titleUrl":"tbh5.png",
+		"read":"deuteronomy 30-31",
+		"meditation":"psalms 63"
+	},
+    {
+		"day":64,
+		"chapter":5,
+		"title":"the wilderness",
+		"titleUrl":"tbh5.png",
+		"read":"deuteronomy 32-34",
+		"meditation":"psalms 64"
+	},
+    {
+		"day":65,
+		"chapter":6,
+		"title":"the promised land",
+		"titleUrl":"tbh6.png",
+		"read":"joshua 1-4",
+		"meditation":"psalms 65"
+	},
+     {
+		"day":66,
+		"chapter":6,
+		"title":"the promised land",
+		"titleUrl":"tbh6.png",
+		"read":"joshua 5-8",
+		"meditation":"psalms 66"
+	},
+     {
+		"day":67,
+		"chapter":6,
+		"title":"the promised land",
+		"titleUrl":"tbh6.png",
+		"read":"joshua 9-12",
+		"meditation":"psalms 67"
+	},
+     {
+		"day":68,
+		"chapter":6,
+		"title":"the promised land",
+		"titleUrl":"tbh6.png",
+		"read":"joshua 13-21",
+		"meditation":"psalms 68"
+	},
+     {
+		"day":69,
+		"chapter":6,
+		"title":"the promised land",
+		"titleUrl":"tbh6.png",
+		"read":"joshua 22-24",
+		"meditation":"psalms 69"
+	},
+    {
+		"day":70,
+		"chapter":6,
+		"title":"the promised land",
+		"titleUrl":"tbh6.png",
+		"read":"judges 1-3",
+		"meditation":"psalms 70"
+	},
+    {
+		"day":71,
+		"chapter":6,
+		"title":"the promised land",
+		"titleUrl":"tbh6.png",
+		"read":"judges 4-5",
+		"meditation":"psalms 717"
+	},
+    {
+		"day":72,
+		"chapter":6,
+		"title":"the promised land",
+		"titleUrl":"tbh6.png",
+		"read":"judges 6-8",
+		"meditation":"psalms 72"
+	},
+    {
+		"day":73,
+		"chapter":6,
+		"title":"the promised land",
+		"titleUrl":"tbh6.png",
+		"read":"judges 9-12",
+		"meditation":"psalms 73"
+	},
+    {
+		"day":74,
+		"chapter":6,
+		"title":"the promised land",
+		"titleUrl":"tbh6.png",
+		"read":"judges 13-15",
+		"meditation":"psalms 74"
+	},
+    {
+		"day":75,
+		"chapter":6,
+		"title":"the promised land",
+		"titleUrl":"tbh6.png",
+		"read":"judges 16-18",
+		"meditation":"psalms 75"
+	},
+    {
+		"day":76,
+		"chapter":6,
+		"title":"the promised land",
+		"titleUrl":"tbh6.png",
+		"read":"judges 19-21",
+		"meditation":"psalms 76"
+	},
+    {
+		"day":77,
+		"chapter":7,
+		"title":"rise and fall of israel's kingdom",
+		"titleUrl":"tbh7.png",
+		"read":"ruth",
+		"meditation":"psalms 77"
+	},
+    {
+		"day":78,
+		"chapter":7,
+		"title":"rise and fall of israel's kingdom",
+		"titleUrl":"tbh7.png",
+		"read":"1 samuel 1-3",
+		"meditation":"psalms 78"
+	},
+    {
+		"day":79,
+		"chapter":7,
+		"title":"rise and fall of israel's kingdom",
+		"titleUrl":"tbh7.png",
+		"read":"1 samuel 4-8",
+		"meditation":"psalms 79"
+	},
+    {
+		"day":80,
+		"chapter":7,
+		"title":"rise and fall of israel's kingdom",
+		"titleUrl":"tbh7.png",
+		"read":"1 samuel 9-12",
+		"meditation":"psalms 80"
+	},
+    {
+		"day":81,
+		"chapter":7,
+		"title":"rise and fall of israel's kingdom",
+		"titleUrl":"tbh7.png",
+		"read":"1 samuel 13-14",
+		"meditation":"psalms 81"
+	},
+    {
+		"day":82,
+		"chapter":7,
+		"title":"rise and fall of israel's kingdom",
+		"titleUrl":"tbh7.png",
+		"read":"1 samuel 15-17",
+		"meditation":"psalms 82"
+	},
+    {
+		"day":83,
+		"chapter":7,
+		"title":"rise and fall of israel's kingdom",
+		"titleUrl":"tbh7.png",
+		"read":"1 samuel 18-20",
+		"meditation":"psalms 83"
+	},
+    {
+		"day":84,
+		"chapter":7,
+		"title":"rise and fall of israel's kingdom",
+		"titleUrl":"tbh7.png",
+		"read":"1 samuel 21-24",
+		"meditation":"psalms 84"
+	},
+    {
+		"day":85,
+		"chapter":7,
+		"title":"rise and fall of israel's kingdom",
+		"titleUrl":"tbh7.png",
+		"read":"1 samuel 25-27",
+		"meditation":"psalms 85"
+	},
+    {
+		"day":86,
+		"chapter":7,
+		"title":"rise and fall of israel's kingdom",
+		"titleUrl":"tbh7.png",
+		"read":"1 samuel 28-31",
+		"meditation":"psalms 86"
+	},
+    {
+		"day":87,
+		"chapter":7,
+		"title":"rise and fall of israel's kingdom",
+		"titleUrl":"tbh7.png",
+		"read":"2 samuel 1-3",
+		"meditation":"psalms 87"
+	},
+    {
+		"day":88,
+		"chapter":7,
+		"title":"rise and fall of israel's kingdom",
+		"titleUrl":"tbh7.png",
+		"read":"2 samuel 4-8",
+		"meditation":"psalms 88"
+	},
+    {
+		"day":89,
+		"chapter":7,
+		"title":"rise and fall of israel's kingdom",
+		"titleUrl":"tbh7.png",
+		"read":"2 samuel 9-12",
+		"meditation":"psalms 89"
+	},
+    {
+		"day":90,
+		"chapter":7,
+		"title":"rise and fall of israel's kingdom",
+		"titleUrl":"tbh7.png",
+		"read":"2 samuel 13-15",
+		"meditation":"psalms 90"
+	},
+    {
+		"day":91,
+		"chapter":7,
+		"title":"rise and fall of israel's kingdom",
+		"titleUrl":"tbh7.png",
+		"read":"2 samuel 16-18",
+		"meditation":"psalms 91"
+	},
+    {
+		"day":92,
+		"chapter":7,
+		"title":"rise and fall of israel's kingdom",
+		"titleUrl":"tbh7.png",
+		"read":"2 samuel 19-21",
+		"meditation":"psalms 92"
+	},
+    {
+		"day":93,
+		"chapter":7,
+		"title":"rise and fall of israel's kingdom",
+		"titleUrl":"tbh7.png",
+		"read":"2 samuel 22-24",
+		"meditation":"psalms 93"
+	},
+    {
+		"day":94,
+		"chapter":7,
+		"title":"rise and fall of israel's kingdom",
+		"titleUrl":"tbh7.png",
+		"read":"1 kings 1-3",
+		"meditation":"psalms 94"
+	},
+    {
+		"day":95,
+		"chapter":7,
+		"title":"rise and fall of israel's kingdom",
+		"titleUrl":"tbh7.png",
+		"read":"1 kings 4-7",
+		"meditation":"psalms 95"
+	},
+    {
+		"day":96,
+		"chapter":7,
+		"title":"rise and fall of israel's kingdom",
+		"titleUrl":"tbh7.png",
+		"read":"1 kings 8-10",
+		"meditation":"psalms 96"
+	},
+    {
+		"day":97,
+		"chapter":7,
+		"title":"rise and fall of israel's kingdom",
+		"titleUrl":"tbh7.png",
+		"read":"1 kings 11-13",
+		"meditation":"psalms 97"
+	},
+    {
+		"day":98,
+		"chapter":7,
+		"title":"rise and fall of israel's kingdom",
+		"titleUrl":"tbh7.png",
+		"read":"1 kings 14-16",
+		"meditation":"psalms 98"
+	},
+    {
+		"day":99,
+		"chapter":7,
+		"title":"rise and fall of israel's kingdom",
+		"titleUrl":"tbh7.png",
+		"read":"1 kings 17-19",
+		"meditation":"psalms 99"
+	},
+    {
+		"day":100,
+		"chapter":7,
+		"title":"rise and fall of israel's kingdom",
+		"titleUrl":"tbh7.png",
+		"read":"1 kings 20-22",
+		"meditation":"psalms 100"
+	},
+    {
+		"day":101,
+		"chapter":7,
+		"title":"rise and fall of israel's kingdom",
+		"titleUrl":"tbh7.png",
+		"read":"2 kings 1-3",
+		"meditation":"psalms 101"
+	},
+    {
+		"day":102,
+		"chapter":7,
+		"title":"rise and fall of israel's kingdom",
+		"titleUrl":"tbh7.png",
+		"read":"2 kings 4-7",
+		"meditation":"psalms 102"
+	},
+    {
+		"day":103,
+		"chapter":7,
+		"title":"rise and fall of israel's kingdom",
+		"titleUrl":"tbh7.png",
+		"read":"2 kings 8-11",
+		"meditation":"psalms 103"
+	},
+    {
+		"day":104,
+		"chapter":7,
+		"title":"rise and fall of israel's kingdom",
+		"titleUrl":"tbh7.png",
+		"read":"2 kings 12-14",
+		"meditation":"psalms 104"
+	},
+    {
+		"day":105,
+		"chapter":7,
+		"title":"rise and fall of israel's kingdom",
+		"titleUrl":"tbh7.png",
+		"read":"2 kings 15-17",
+		"meditation":"psalms 105"
+	},
+    {
+		"day":106,
+		"chapter":7,
+		"title":"rise and fall of israel's kingdom",
+		"titleUrl":"tbh7.png",
+		"read":"2 kings 18-19",
+		"meditation":"psalms 106"
+	},
+    {
+		"day":107,
+		"chapter":7,
+		"title":"rise and fall of israel's kingdom",
+		"titleUrl":"tbh7.png",
+		"read":"2 kings 20-22",
+		"meditation":"psalms 107"
+	},
+    {
+		"day":108,
+		"chapter":7,
+		"title":"rise and fall of israel's kingdom",
+		"titleUrl":"tbh7.png",
+		"read":"2 kings 23-25",
+		"meditation":"psalms 108"
+	},
+    {
+		"day":109,
+		"chapter":8,
+		"title":"the prophets before the exile",
+		"titleUrl":"tbh8.png",
+		"read":"isaiah 1-4",
+		"meditation":"psalms 109"
+	},
+    {
+		"day":110,
+		"chapter":8,
+		"title":"the prophets before the exile",
+		"titleUrl":"tbh8.png",
+		"read":"isaiah 5-8",
+		"meditation":"psalms 110"
+	},
+    {
+		"day":111,
+		"chapter":8,
+		"title":"the prophets before the exile",
+		"titleUrl":"tbh8.png",
+		"read":"isaiah 9-12",
+		"meditation":"psalms 111"
+	},
+    {
+		"day":112,
+		"chapter":8,
+		"title":"the prophets before the exile",
+		"titleUrl":"tbh8.png",
+		"read":"isaiah 13-17",
+		"meditation":"psalms 112"
+	},
+    {
+		"day":113,
+		"chapter":8,
+		"title":"the prophets before the exile",
+		"titleUrl":"tbh8.png",
+		"read":"isaiah 18-22",
+		"meditation":"psalms 113"
+	},
+    {
+		"day":114,
+		"chapter":8,
+		"title":"the prophets before the exile",
+		"titleUrl":"tbh8.png",
+		"read":"isaiah 23-27",
+		"meditation":"psalms 114"
+	},
+    {
+		"day":115,
+		"chapter":8,
+		"title":"the prophets before the exile",
+		"titleUrl":"tbh8.png",
+		"read":"isaiah 28-30",
+		"meditation":"psalms 115"
+	},
+    {
+		"day":116,
+		"chapter":8,
+		"title":"the prophets before the exile",
+		"titleUrl":"tbh8.png",
+		"read":"isaiah 31-35",
+		"meditation":"psalms 116"
+	},
+    {
+		"day":117,
+		"chapter":8,
+		"title":"the prophets before the exile",
+		"titleUrl":"tbh8.png",
+		"read":"isaiah 36-38",
+		"meditation":"psalms 117"
+	},
+    {
+		"day":118,
+		"chapter":8,
+		"title":"the prophets before the exile",
+		"titleUrl":"tbh8.png",
+		"read":"isaiah 39-41",
+		"meditation":"psalms 118"
+	},
+    {
+		"day":119,
+		"chapter":8,
+		"title":"the prophets before the exile",
+		"titleUrl":"tbh8.png",
+		"read":"isaiah 42-44",
+		"meditation":"psalms 119:1-32"
+	},
+    {
+		"day":120,
+		"chapter":8,
+		"title":"the prophets before the exile",
+		"titleUrl":"tbh8.png",
+		"read":"isaiah 45-48",
+		"meditation":"psalms 119:33-64"
+	},
+    {
+		"day":121,
+		"chapter":8,
+		"title":"the prophets before the exile",
+		"titleUrl":"tbh8.png",
+		"read":"isaiah 49-51",
+		"meditation":"psalms 119:65-95"
+	},
+    {
+		"day":122,
+		"chapter":8,
+		"title":"the prophets before the exile",
+		"titleUrl":"tbh8.png",
+		"read":"isaiah 52-54",
+		"meditation":"psalms 119:97-128"
+	},
+    {
+		"day":123,
+		"chapter":8,
+		"title":"the prophets before the exile",
+		"titleUrl":"tbh8.png",
+		"read":"isaiah 55-57",
+		"meditation":"psalms 119:129-152"
+	},
+    {
+		"day":124,
+		"chapter":8,
+		"title":"the prophets before the exile",
+		"titleUrl":"tbh8.png",
+		"read":"isaiah 58-60",
+		"meditation":"psalms 119:153-176"
+	},
+    {
+		"day":125,
+		"chapter":8,
+		"title":"the prophets before the exile",
+		"titleUrl":"tbh8.png",
+		"read":"isaiah 61-64",
+		"meditation":"psalms 120"
+	},
+    {
+		"day":126,
+		"chapter":8,
+		"title":"the prophets before the exile",
+		"titleUrl":"tbh8.png",
+		"read":"isaiah 65-66",
+		"meditation":"psalms 121"
+	},
+    {
+		"day":127,
+		"chapter":8,
+		"title":"the prophets before the exile",
+		"titleUrl":"tbh8.png",
+		"read":"hosea 1-5",
+		"meditation":"psalms 122"
+	},
+    {
+		"day":128,
+		"chapter":8,
+		"title":"the prophets before the exile",
+		"titleUrl":"tbh8.png",
+		"read":"hosea 6-10",
+		"meditation":"psalms 123"
+	},
+    {
+		"day":129,
+		"chapter":8,
+		"title":"the prophets before the exile",
+		"titleUrl":"tbh8.png",
+		"read":"hosea 11-14",
+		"meditation":"psalms 124"
+	},
+    {
+		"day":130,
+		"chapter":8,
+		"title":"the prophets before the exile",
+		"titleUrl":"tbh8.png",
+		"read":"joel",
+		"meditation":"psalms 125"
+	},
+    {
+		"day":131,
+		"chapter":8,
+		"title":"the prophets before the exile",
+		"titleUrl":"tbh8.png",
+		"read":"amos 1-5",
+		"meditation":"psalms 126"
+	},
+    {
+		"day":132,
+		"chapter":8,
+		"title":"the prophets before the exile",
+		"titleUrl":"tbh8.png",
+		"read":"amos 6-9",
+		"meditation":"psalms 127"
+	},
+    {
+		"day":133,
+		"chapter":8,
+		"title":"the prophets before the exile",
+		"titleUrl":"tbh8.png",
+		"read":"obadiah",
+		"meditation":"psalms 128"
+	},
+    {
+		"day":134,
+		"chapter":8,
+		"title":"the prophets before the exile",
+		"titleUrl":"tbh8.png",
+		"read":"jonah",
+		"meditation":"psalms 129"
+	},
+    {
+		"day":135,
+		"chapter":8,
+		"title":"the prophets before the exile",
+		"titleUrl":"tbh8.png",
+		"read":"micah 1-4",
+		"meditation":"psalms 130"
+	},
+    {
+		"day":135,
+		"chapter":8,
+		"title":"the prophets before the exile",
+		"titleUrl":"tbh8.png",
+		"read":"micah 5-7",
+		"meditation":"psalms 131"
+	},
+    {
+		"day":136,
+		"chapter":8,
+		"title":"the prophets before the exile",
+		"titleUrl":"tbh8.png",
+		"read":"nahum",
+		"meditation":"psalms 132"
+	},
+    {
+		"day":137,
+		"chapter":8,
+		"title":"the prophets before the exile",
+		"titleUrl":"tbh8.png",
+		"read":"habakkuk",
+		"meditation":"psalms 133"
+	},
+    {
+		"day":138,
+		"chapter":8,
+		"title":"the prophets before the exile",
+		"titleUrl":"tbh8.png",
+		"read":"zephaniah",
+		"meditation":"psalms 134"
+	},
+    {
+		"day":139,
+		"chapter":9,
+		"title":"the wisdom of israel",
+		"titleUrl":"tbh9.png",
+		"read":"job 1-3",
+		"meditation":"psalms 135"
+	},
+    {
+		"day":140,
+		"chapter":9,
+		"title":"the wisdom of israel",
+		"titleUrl":"tbh9.png",
+		"read":"job 4-7",
+		"meditation":"psalms 136"
+	},
+    {
+		"day":141,
+		"chapter":9,
+		"title":"the wisdom of israel",
+		"titleUrl":"tbh9.png",
+		"read":"job 8-11",
+		"meditation":"psalms 137"
+	},
+    {
+		"day":142,
+		"chapter":9,
+		"title":"the wisdom of israel",
+		"titleUrl":"tbh9.png",
+		"read":"job 12-15",
+		"meditation":"psalms 138"
+	},
+    {
+		"day":143,
+		"chapter":9,
+		"title":"the wisdom of israel",
+		"titleUrl":"tbh9.png",
+		"read":"job 16-19",
+		"meditation":"psalms 139"
+	},
+    {
+		"day":144,
+		"chapter":9,
+		"title":"the wisdom of israel",
+		"titleUrl":"tbh9.png",
+		"read":"job 20-23",
+		"meditation":"psalms 140"
+	},
+    {
+		"day":145,
+		"chapter":9,
+		"title":"the wisdom of israel",
+		"titleUrl":"tbh9.png",
+		"read":"job 24-28",
+		"meditation":"psalms 141"
+	},
+    {
+		"day":146,
+		"chapter":9,
+		"title":"the wisdom of israel",
+		"titleUrl":"tbh9.png",
+		"read":"job 29-31",
+		"meditation":"psalms 142"
+	},
+    {
+		"day":147,
+		"chapter":9,
+		"title":"the wisdom of israel",
+		"titleUrl":"tbh9.png",
+		"read":"job 32-34",
+		"meditation":"psalms 143"
+	},
+    {
+		"day":148,
+		"chapter":9,
+		"title":"the wisdom of israel",
+		"titleUrl":"tbh9.png",
+		"read":"job 35-37",
+		"meditation":"psalms 144"
+	},
+    {
+		"day":149,
+		"chapter":9,
+		"title":"the wisdom of israel",
+		"titleUrl":"tbh9.png",
+		"read":"job 38-39",
+		"meditation":"psalms 145"
+	},
+    {
+		"day":150,
+		"chapter":9,
+		"title":"the wisdom of israel",
+		"titleUrl":"tbh9.png",
+		"read":"job 40-42",
+		"meditation":"psalms 146"
+	},
+    {
+		"day":151,
+		"chapter":9,
+		"title":"the wisdom of israel",
+		"titleUrl":"tbh9.png",
+		"read":"psalms 1-2",
+		"meditation":"psalms 147"
+	},
+    {
+		"day":152,
+		"chapter":9,
+		"title":"the wisdom of israel",
+		"titleUrl":"tbh9.png",
+		"read":"proverbs 1-3",
+		"meditation":"psalms 148"
+	},
+    {
+		"day":153,
+		"chapter":9,
+		"title":"the wisdom of israel",
+		"titleUrl":"tbh9.png",
+		"read":"proverbs 4-6",
+		"meditation":"psalms 149"
+	},
+    {
+		"day":154,
+		"chapter":9,
+		"title":"the wisdom of israel",
+		"titleUrl":"tbh9.png",
+		"read":"proverbs 7-9",
+		"meditation":"psalms 150"
+	},
+    {
+		"day":155,
+		"chapter":9,
+		"title":"the wisdom of israel",
+		"titleUrl":"tbh9.png",
+		"read":"proverbs 10-12",
+		"meditation":"psalms 1"
+	},
+    {
+		"day":156,
+		"chapter":9,
+		"title":"the wisdom of israel",
+		"titleUrl":"tbh9.png",
+		"read":"proverbs 13-15",
+		"meditation":"psalms 2"
+	},
+    {
+		"day":157,
+		"chapter":9,
+		"title":"the wisdom of israel",
+		"titleUrl":"tbh9.png",
+		"read":"proverbs 16-18",
+		"meditation":"psalms 3"
+	},
+    {
+		"day":158,
+		"chapter":9,
+		"title":"the wisdom of israel",
+		"titleUrl":"tbh9.png",
+		"read":"proverbs 19-21",
+		"meditation":"psalms 4"
+	},
+    {
+		"day":159,
+		"chapter":9,
+		"title":"the wisdom of israel",
+		"titleUrl":"tbh9.png",
+		"read":"proverbs 22-24",
+		"meditation":"psalms 5"
+	},
+    {
+		"day":160,
+		"chapter":9,
+		"title":"the wisdom of israel",
+		"titleUrl":"tbh9.png",
+		"read":"proverbs 25-27",
+		"meditation":"psalms 6"
+	},
+    {
+		"day":161,
+		"chapter":9,
+		"title":"the wisdom of israel",
+		"titleUrl":"tbh9.png",
+		"read":"proverbs 28-31",
+		"meditation":"psalms 7"
+	},
+    {
+		"day":162,
+		"chapter":9,
+		"title":"the wisdom of israel",
+		"titleUrl":"tbh9.png",
+		"read":"ecclesiastes 1-4",
+		"meditation":"psalms 8"
+	},
+    {
+		"day":163,
+		"chapter":9,
+		"title":"the wisdom of israel",
+		"titleUrl":"tbh9.png",
+		"read":"ecclesiastes 5-8",
+		"meditation":"psalms 9"
+	},
+    {
+		"day":164,
+		"chapter":9,
+		"title":"the wisdom of israel",
+		"titleUrl":"tbh9.png",
+		"read":"ecclesiastes 9-12",
+		"meditation":"psalms 10"
+	},
+    {
+		"day":165,
+		"chapter":9,
+		"title":"the wisdom of israel",
+		"titleUrl":"tbh9.png",
+		"read":"song of songs 1-4",
+		"meditation":"psalms 11"
+	},
+    {
+		"day":166,
+		"chapter":9,
+		"title":"the wisdom of israel",
+		"titleUrl":"tbh9.png",
+		"read":"song of songs 5-8",
+		"meditation":"psalms 12"
+	},
+    {
+		"day":167,
+		"chapter":10,
+		"title":"the prophets of the exile",
+		"titleUrl":"tbh10.png",
+		"read":"jeremiah 1-3",
+		"meditation":"psalms 13"
+	},
+    {
+		"day":168,
+		"chapter":10,
+		"title":"the prophets of the exile",
+		"titleUrl":"tbh10.png",
+		"read":"jeremiah 4-6",
+		"meditation":"psalms 14"
+	},
+    {
+		"day":169,
+		"chapter":10,
+		"title":"the prophets of the exile",
+		"titleUrl":"tbh10.png",
+		"read":"jeremiah 7-9",
+		"meditation":"psalms 15"
+	},
+    {
+		"day":170,
+		"chapter":10,
+		"title":"the prophets of the exile",
+		"titleUrl":"tbh10.png",
+		"read":"jeremiah 10-13",
+		"meditation":"psalms 16"
+	},
+    {
+		"day":171,
+		"chapter":10,
+		"title":"the prophets of the exile",
+		"titleUrl":"tbh10.png",
+		"read":"jeremiah 14-17",
+		"meditation":"psalms 17"
+	},
+    {
+		"day":172,
+		"chapter":10,
+		"title":"the prophets of the exile",
+		"titleUrl":"tbh10.png",
+		"read":"jeremiah 18-22",
+		"meditation":"psalms 18"
+	},
+    {
+		"day":173,
+		"chapter":10,
+		"title":"the prophets of the exile",
+		"titleUrl":"tbh10.png",
+		"read":"jeremiah 23-25",
+		"meditation":"psalms 19"
+	},
+    {
+		"day":174,
+		"chapter":10,
+		"title":"the prophets of the exile",
+		"titleUrl":"tbh10.png",
+		"read":"jeremiah 26-29",
+		"meditation":"psalms 20"
+	},
+    {
+		"day":175,
+		"chapter":10,
+		"title":"the prophets of the exile",
+		"titleUrl":"tbh10.png",
+		"read":"jeremiah 30-32",
+		"meditation":"psalms 21"
+	},
+    {
+		"day":176,
+		"chapter":10,
+		"title":"the prophets of the exile",
+		"titleUrl":"tbh10.png",
+		"read":"jeremiah 33-36",
+		"meditation":"psalms 22"
+	},
+    {
+		"day":177,
+		"chapter":10,
+		"title":"the prophets of the exile",
+		"titleUrl":"tbh10.png",
+		"read":"jeremiah 37-39",
+		"meditation":"psalms 23"
+	},
+    {
+		"day":178,
+		"chapter":10,
+		"title":"the prophets of the exile",
+		"titleUrl":"tbh10.png",
+		"read":"jeremiah 40-44",
+		"meditation":"psalms 24"
+	},
+    {
+		"day":179,
+		"chapter":10,
+		"title":"the prophets of the exile",
+		"titleUrl":"tbh10.png",
+		"read":"jeremiah 45-48",
+		"meditation":"psalms 25"
+	},
+    {
+		"day":180,
+		"chapter":10,
+		"title":"the prophets of the exile",
+		"titleUrl":"tbh10.png",
+		"read":"jeremiah 49-50",
+		"meditation":"psalms 26"
+	},
+    {
+		"day":181,
+		"chapter":10,
+		"title":"the prophets of the exile",
+		"titleUrl":"tbh10.png",
+		"read":"jeremiah 51-52",
+		"meditation":"psalms 27"
+	},
+    {
+		"day":182,
+		"chapter":10,
+		"title":"the prophets of the exile",
+		"titleUrl":"tbh10.png",
+		"read":"lamentations 1-2",
+		"meditation":"psalms 28"
+	},
+    {
+		"day":183,
+		"chapter":10,
+		"title":"the prophets of the exile",
+		"titleUrl":"tbh10.png",
+		"read":"lamentations 3",
+		"meditation":"psalms 29"
+	},
+    {
+		"day":184,
+		"chapter":10,
+		"title":"the prophets of the exile",
+		"titleUrl":"tbh10.png",
+		"read":"lamentations 4-5",
+		"meditation":"psalms 30"
+	},
+    {
+		"day":185,
+		"chapter":10,
+		"title":"the prophets of the exile",
+		"titleUrl":"tbh10.png",
+		"read":"ezekiel 1-4",
+		"meditation":"psalms 31"
+	},
+    {
+		"day":186,
+		"chapter":10,
+		"title":"the prophets of the exile",
+		"titleUrl":"tbh10.png",
+		"read":"ezekiel 5-8",
+		"meditation":"psalms 32"
+	},
+    {
+		"day":187,
+		"chapter":10,
+		"title":"the prophets of the exile",
+		"titleUrl":"tbh10.png",
+		"read":"ezekiel 9-12",
+		"meditation":"psalms 33"
+	},
+    {
+		"day":188,
+		"chapter":10,
+		"title":"the prophets of the exile",
+		"titleUrl":"tbh10.png",
+		"read":"ezekiel 13-15",
+		"meditation":"psalms 34"
+	},
+    {
+		"day":189,
+		"chapter":10,
+		"title":"the prophets of the exile",
+		"titleUrl":"tbh10.png",
+		"read":"ezekiel 16-18",
+		"meditation":"psalms 35"
+	},
+    {
+		"day":190,
+		"chapter":10,
+		"title":"the prophets of the exile",
+		"titleUrl":"tbh10.png",
+		"read":"ezekiel 19-21",
+		"meditation":"psalms 36"
+	},
+    {
+		"day":191,
+		"chapter":10,
+		"title":"the prophets of the exile",
+		"titleUrl":"tbh10.png",
+		"read":"ezekiel 22-24",
+		"meditation":"psalms 37"
+	},
+    {
+		"day":192,
+		"chapter":10,
+		"title":"the prophets of the exile",
+		"titleUrl":"tbh10.png",
+		"read":"ezekiel 25-27",
+		"meditation":"psalms 38"
+	},
+    {
+		"day":193,
+		"chapter":10,
+		"title":"the prophets of the exile",
+		"titleUrl":"tbh10.png",
+		"read":"ezekiel 28-30",
+		"meditation":"psalms 39"
+	},
+    {
+		"day":194,
+		"chapter":10,
+		"title":"the prophets of the exile",
+		"titleUrl":"tbh10.png",
+		"read":"ezekiel 31-33",
+		"meditation":"psalms 40"
+	},
+    {
+		"day":195,
+		"chapter":10,
+		"title":"the prophets of the exile",
+		"titleUrl":"tbh10.png",
+		"read":"ezekiel 34-36",
+		"meditation":"psalms 41"
+	},
+    {
+		"day":196,
+		"chapter":10,
+		"title":"the prophets of the exile",
+		"titleUrl":"tbh10.png",
+		"read":"ezekiel 37-39",
+		"meditation":"psalms 42"
+	},
+    {
+		"day":197,
+		"chapter":10,
+		"title":"the prophets of the exile",
+		"titleUrl":"tbh10.png",
+		"read":"ezekiel 40-44",
+		"meditation":"psalms 43"
+	},
+    {
+		"day":108,
+		"chapter":10,
+		"title":"the prophets of the exile",
+		"titleUrl":"tbh10.png",
+		"read":"ezekiel 45-48",
+		"meditation":"psalms 44"
+	}
+]
