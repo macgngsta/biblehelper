@@ -579,7 +579,7 @@
 		"title":"the promised land",
 		"titleUrl":"tbh6.png",
 		"read":"judges 4-5",
-		"meditation":"psalms 717"
+		"meditation":"psalms 71"
 	},
     {
 		"day":72,
@@ -626,7 +626,7 @@
 		"chapter":7,
 		"title":"rise and fall of israel's kingdom",
 		"titleUrl":"tbh7.png",
-		"read":"ruth",
+		"read":"ruth 1-4",
 		"meditation":"psalms 77"
 	},
     {
@@ -1050,7 +1050,7 @@
 		"chapter":8,
 		"title":"the prophets before the exile",
 		"titleUrl":"tbh8.png",
-		"read":"joel",
+		"read":"joel 1-3",
 		"meditation":"psalms 125"
 	},
     {
@@ -1074,7 +1074,7 @@
 		"chapter":8,
 		"title":"the prophets before the exile",
 		"titleUrl":"tbh8.png",
-		"read":"obadiah",
+		"read":"obadiah 1",
 		"meditation":"psalms 128"
 	},
     {
@@ -1082,7 +1082,7 @@
 		"chapter":8,
 		"title":"the prophets before the exile",
 		"titleUrl":"tbh8.png",
-		"read":"jonah",
+		"read":"jonah 1-4",
 		"meditation":"psalms 129"
 	},
     {
@@ -1106,7 +1106,7 @@
 		"chapter":8,
 		"title":"the prophets before the exile",
 		"titleUrl":"tbh8.png",
-		"read":"nahum",
+		"read":"nahum 1-3",
 		"meditation":"psalms 132"
 	},
     {
@@ -1114,7 +1114,7 @@
 		"chapter":8,
 		"title":"the prophets before the exile",
 		"titleUrl":"tbh8.png",
-		"read":"habakkuk",
+		"read":"habakkuk 1-3",
 		"meditation":"psalms 133"
 	},
     {
@@ -1122,7 +1122,7 @@
 		"chapter":8,
 		"title":"the prophets before the exile",
 		"titleUrl":"tbh8.png",
-		"read":"zephaniah",
+		"read":"zephaniah 1-3",
 		"meditation":"psalms 134"
 	},
     {
@@ -1598,7 +1598,7 @@
 		"meditation":"psalms 43"
 	},
     {
-		"day":108,
+		"day":198,
 		"chapter":10,
 		"title":"the prophets of the exile",
 		"titleUrl":"tbh10.png",

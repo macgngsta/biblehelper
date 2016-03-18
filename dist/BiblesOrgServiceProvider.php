@@ -62,6 +62,9 @@ class BiblesOrgServiceProvider {
 			$curlH->execute();
 			$extractedObj = $this->readXml($curlH);
 
+            //var_dump($extractedObj);
+            //die;
+
 			if(!empty($extractedObj)){
 				$this->_extractedResponse=$extractedObj;
 			}
@@ -205,44 +208,105 @@ class BiblesOrgServiceProvider {
 
 			//contains a -
 			if(strpos($queryClean,'-')!==false){
-				//split by space
-				$book = explode(' ', $queryClean);
 
-				//we currently assume that there are not multiple books
-				//per reading
-				if(!empty($book) && count($book)>=2){
-					//this is the book
-					$theBook = $book[0];
-					//these are the chapters
-					$theChapters = $book[1];
-					if(!empty($theChapters)){
-						$whichCh = explode('-',$theChapters);
-
-						if(!empty($whichCh) && count($whichCh) == 2){
-							$sCh = (int)$whichCh[0];
-							$eCh = (int)$whichCh[1];
-
-							$isFirst = true;
-							for($i=$sCh; $i<=$eCh; $i++){
-								if($isFirst){
-									$isFirst=false;
-								}
-								else{
-									$exhaustiveBookQuery.=',';
-								}
-								$exhaustiveBookQuery.=$theBook;
-								$exhaustiveBookQuery.=' ';
-								$exhaustiveBookQuery.=$i;
-							}
-						}
-					}
-
-				}
-
+                //need to handle 1 samuel 1-3
+                //and later psalms 119:1-30
+                
+                $book = explode(' ', $queryClean);
+                if(!empty($book)){
+                    $len = count($book);
+                    
+                    $prefix="";
+                    $theBook="";
+                    $remainder="";
+                    $chapters="";
+                    $sCh=0;
+                    $eCh=0;
+                    $verses="";
+                    
+                    if($len==3){
+                        $prefix=$book[0];
+                        $theBook=$book[1];
+                        $remainder=$book[2];
+                    }
+                    else if($len==2){
+                        $theBook=$book[0];
+                        $remainder=$book[1];
+                    }
+                    else{
+                        //couldnt parse
+                    }
+                    
+                    //explode verses
+                    $chVerses = explode(':',$remainder);
+                    
+                    if(!empty($chVerses)){
+                        $len2 = count($chVerses);
+                        
+                        if($len2 == 1){
+                            //no verses
+                            $chapters=$chVerses[0];
+                        }
+                        else if($len2 == 2){
+                            //verses
+                            $chapters=$chVerses[0];
+                            $verses=$chVerses[1];
+                        }
+                        else{
+                            //couldnt parse
+                        }
+                    }
+                    
+                    $chaps = explode('-',$chapters);
+                    
+                    if(!empty($chaps)){
+                       $len3 = count($chaps);
+                       
+                       if($len3==1){
+                           $sCh=(int)$chaps[0];
+                           $eCh=(int)$chaps[0];
+                       }
+                       else if($len3==2){
+                           $sCh=(int)$chaps[0];
+                           $eCh=(int)$chaps[1];
+                       }
+                       else{
+                           //couldnt parse
+                       }
+                    }
+                    
+                    //build query
+                    $isFirst = true;
+                    for($i=$sCh; $i<=$eCh; $i++){
+                        if($isFirst){
+                            $isFirst=false;
+                        }
+                        else{
+                            $exhaustiveBookQuery.=',';
+                        }
+                        
+                        if(!empty($prefix)){
+                            $exhaustiveBookQuery.=$prefix;
+                            $exhaustiveBookQuery.=" ";
+                        }
+                        
+                        $exhaustiveBookQuery.=$theBook;
+                        $exhaustiveBookQuery.=' ';
+                        $exhaustiveBookQuery.=$i;
+                        
+                        if(!empty($verses)){
+                            $exhaustiveBookQuery.=":";
+                            $exhaustiveBookQuery.=$verses;
+                        }
+                    }
+                }
 			}
 			else{
 				$exhaustiveBookQuery=$queryClean;
 			}
+            
+            
+            
 			$queryClean=urlencode($exhaustiveBookQuery);
 		}
 
