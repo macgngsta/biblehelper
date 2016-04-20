@@ -531,7 +531,9 @@
 		"title":"the promised land",
 		"titleUrl":"tbh6.png",
 		"read":"joshua 1-4",
-		"meditation":"psalms 65"
+		"meditation":"psalms 65",
+		"video":"joshua",
+		"videoUrl":"https://www.youtube.com/embed/JqOqJlFF_eU"
 	},
      {
 		"day":66,
@@ -571,7 +573,9 @@
 		"title":"the promised land",
 		"titleUrl":"tbh6.png",
 		"read":"judges 1-3",
-		"meditation":"psalms 70"
+		"meditation":"psalms 70",
+		"video":"judges",
+		"videoUrl":"https://www.youtube.com/embed/kOYy8iCfIJ4"
 	},
     {
 		"day":71,
@@ -627,7 +631,9 @@
 		"title":"rise and fall of israel's kingdom",
 		"titleUrl":"tbh7.png",
 		"read":"ruth 1-4",
-		"meditation":"psalms 77"
+		"meditation":"psalms 77",
+		"video":"ruth",
+		"videoUrl":"https://www.youtube.com/embed/0h1eoBeR4Jk"
 	},
     {
 		"day":78,
@@ -635,7 +641,9 @@
 		"title":"rise and fall of israel's kingdom",
 		"titleUrl":"tbh7.png",
 		"read":"1 samuel 1-3",
-		"meditation":"psalms 78"
+		"meditation":"psalms 78",
+		"video":"1 samuel",
+		"videoUrl":"https://www.youtube.com/embed/QJOju5Dw0V0"
 	},
     {
 		"day":79,
@@ -707,7 +715,9 @@
 		"title":"rise and fall of israel's kingdom",
 		"titleUrl":"tbh7.png",
 		"read":"2 samuel 1-3",
-		"meditation":"psalms 87"
+		"meditation":"psalms 87",
+		"video":"2 samuel",
+		"videoUrl":"https://www.youtube.com/embed/YvoWDXNDJgs"
 	},
     {
 		"day":88,
@@ -763,7 +773,9 @@
 		"title":"rise and fall of israel's kingdom",
 		"titleUrl":"tbh7.png",
 		"read":"1 kings 1-3",
-		"meditation":"psalms 94"
+		"meditation":"psalms 94",
+		"video":"1-2 kings",
+		"videoUrl":"https://www.youtube.com/embed/bVFW3wbi9pk"
 	},
     {
 		"day":95,
@@ -883,7 +895,9 @@
 		"title":"the prophets before the exile",
 		"titleUrl":"tbh8.png",
 		"read":"isaiah 1-4",
-		"meditation":"psalms 109"
+		"meditation":"psalms 109",
+		"video":"isaiah part 1",
+		"videoUrl":"https://www.youtube.com/embed/d0A6Uchb1F8"
 	},
     {
 		"day":110,
@@ -1083,7 +1097,9 @@
 		"title":"the prophets before the exile",
 		"titleUrl":"tbh8.png",
 		"read":"jonah 1-4",
-		"meditation":"psalms 129"
+		"meditation":"psalms 129",
+		"video":"jonah",
+		"videoUrl":"https://www.youtube.com/embed/dLIabZc0O4c"
 	},
     {
 		"day":135,
@@ -1131,7 +1147,9 @@
 		"title":"the wisdom of israel",
 		"titleUrl":"tbh9.png",
 		"read":"job 1-3",
-		"meditation":"psalms 135"
+		"meditation":"psalms 135",
+		"video":"job",
+		"videoUrl":"https://www.youtube.com/embed/xQwnH8th_fs"
 	},
     {
 		"day":140,
@@ -1227,7 +1245,9 @@
 		"title":"the wisdom of israel",
 		"titleUrl":"tbh9.png",
 		"read":"psalms 1-2",
-		"meditation":"psalms 147"
+		"meditation":"psalms 147",
+		"video":"psalms",
+		"videoUrl":"https://www.youtube.com/embed/j9phNEaPrv8"
 	},
     {
 		"day":152,
@@ -1339,7 +1359,9 @@
 		"title":"the wisdom of israel",
 		"titleUrl":"tbh9.png",
 		"read":"song of songs 1-4",
-		"meditation":"psalms 11"
+		"meditation":"psalms 11",
+		"video":"song of songs",
+		"videoUrl":"https://www.youtube.com/embed/4KC7xE4fgOw"
 	},
     {
 		"day":166,
